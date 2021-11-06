@@ -11,5 +11,27 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_marginStart="@dimen/activityMargin"
+        android:layout_marginLeft="@dimen/activityMargin"
+        android:layout_marginTop="@dimen/activityMargin"
+        android:layout_marginEnd="@dimen/activityMargin"
+        android:layout_marginRight="@dimen/activityMargin"
+        android:background="@color/colorInfo"
+        android:padding="@dimen/testViewPadding"
+        android:text="@string/temperatura"
+        android:textColor="@color/colorTextInfo" />
+
+    <EditText
+        android:id="@+id/editTextTemperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activityMargin"
+        android:layout_marginLeft="@dimen/activityMargin"
+        android:layout_marginEnd="@dimen/activityMargin"
+        android:layout_marginRight="@dimen/activityMargin"
+        android:background="@color/colorInput"
+        android:ems="10"
+        android:hint="@string/temperatura"
+        android:inputType="numberSigned|numberDecimal"
+        android:minHeight="48dp" />
 </LinearLayout>
