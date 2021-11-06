@@ -9,5 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="colorInfo">#033c06</color>
     <color name="colorInput">#FF9800</color>
-    <color name="colorLabel">#00BCD4</color>
+    <color name="colorButton">#00BCD4</color>
 </resources>
